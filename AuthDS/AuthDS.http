@@ -1,0 +1,6 @@
+@AuthDS_HostAddress = http://localhost:5195
+
+GET {{AuthDS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

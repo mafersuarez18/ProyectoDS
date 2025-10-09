@@ -1,7 +1,7 @@
-﻿using EventoDS.Models.Entities;
+﻿using UserDS.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace EventoDS.Data
+namespace UserDS.Data
 {
     public class ApplicationDbContext : DbContext
     {

@@ -1,10 +1,10 @@
-﻿using EventoDS.Data;
-using EventoDS.Models;
-using EventoDS.Models.Entities;
+﻿using UserDS.Data;
+using UserDS.Models;
+using UserDS.Models.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EventoDS.Controllers
+namespace UserDS.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

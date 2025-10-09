@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EventoDS.Models.Entities
+namespace UserDS.Models.Entities
 {
     public class Role
     {

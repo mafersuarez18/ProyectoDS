@@ -1,7 +1,7 @@
-﻿using EventoDS.Models.Entities;
+﻿using UserDS.Models.Entities;
 using System.ComponentModel.DataAnnotations;
 
-namespace EventoDS.Models
+namespace UserDS.Models
 {
     public class AddUserDto
     {

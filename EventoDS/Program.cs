@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using EventoDS.Data;
+using UserDS.Data;
 
 
 var builder = WebApplication.CreateBuilder(args);

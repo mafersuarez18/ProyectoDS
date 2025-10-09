@@ -1,6 +1,6 @@
-﻿using EventoDS.Models.Entities;
+﻿using UserDS.Models.Entities;
 
-namespace EventoDS.Models
+namespace UserDS.Models
 {
     public class UpdateRoles_PrivilegesDto
     {

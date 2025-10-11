@@ -44,6 +44,7 @@ namespace ReservationsDS.Controllers
             var Reservationsentity = new Reservation()
             {
                 Date = addReservationDto.Date,
+                State = addReservationDto.State,
             };
 
             dbContext.Reservations.Add(Reservationsentity);
@@ -64,6 +65,7 @@ namespace ReservationsDS.Controllers
             }
 
             existingReservation.Date = updateReservationsDto.Date;
+            existingReservation.State = updateReservationsDto.State;
             dbContext.SaveChanges();
             return Ok(existingReservation);
         }

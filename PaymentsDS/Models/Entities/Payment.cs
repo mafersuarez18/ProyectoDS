@@ -7,8 +7,7 @@
         public double amount { get; set; }
         public string state { get; set; }
 
-        // Clave foránea hacia Bill
-        public int BillId { get; set; }
+        // Relación 1:1 con Bill
         public Bill Bill { get; set; }
     }
 }

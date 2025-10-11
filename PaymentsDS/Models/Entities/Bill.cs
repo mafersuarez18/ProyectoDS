@@ -5,7 +5,8 @@
         public int Id { get; set; }
         public DateOnly date { get; set; }
 
-        // Relación 1 a 1 con Payment
+        // Clave foránea de Payment
+        public int PaymentId { get; set; }
         public Payment Payment { get; set; }
     }
 }

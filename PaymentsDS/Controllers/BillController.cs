@@ -45,6 +45,7 @@ namespace PaymentsDS.Controllers
             var billentity = new Bill()
             {
                date = addbillsDto.date,
+               PaymentId = addbillsDto.PaymentId,
 
             };
 
@@ -65,6 +66,7 @@ namespace PaymentsDS.Controllers
                 return NotFound();
             }
             existingBill.date = updateBillDto.date;
+            existingBill.PaymentId = updateBillDto.PaymentId;
             
             dbContext.SaveChanges();
             return Ok(existingBill);

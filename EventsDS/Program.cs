@@ -1,3 +1,4 @@
+using EventsDS.Data;
 using Microsoft.AspNetCore.Authentication.Negotiate;
 using Microsoft.EntityFrameworkCore;
 
